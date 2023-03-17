@@ -64,5 +64,5 @@ listaDeUsers << novo_user
 # listaDeUsers.insert(3, novo_user)
 # puts listaDeUsers[0..2]
 get_user_by_id = listaDeUsers.select{ |user| user[:id] == 1 }
-puts get_user_by_id
+puts "#{listaDeUsers}"
 
